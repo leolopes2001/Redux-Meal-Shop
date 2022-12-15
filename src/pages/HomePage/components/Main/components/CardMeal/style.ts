@@ -1,19 +1,10 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-  background: #D2D2D2;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-`;
-
-export const CardMeal = styled.li`
-  margin: 4rem;
-  width: 223px;
+export const CardMealStyled = styled.li`
+  min-width: 213px;
+  max-width: 213px;
   height: 280px;
-  background: #bebebe;
+  background: #A7A7A7;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   list-style-type: none;
